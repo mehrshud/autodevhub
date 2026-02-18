@@ -1,0 +1,69 @@
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE files
+.vscode/
+.pydev/
+.ipynb_checkpoints/
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trash/
+ehthumbs.db
+Thumbs.db
+
+# Docker
+Dockerfile
+*.dockerignore
+docker-compose*.yaml
+docker-compose*.yml
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# Secrets
+.secrets/
+secrets.json
+secrets.yml
+secrets.yaml
+*.key
+*.pem
+*.env
+.env*
+
+# TypeScript
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Miscellaneous
+venv/
+env/
+logs/
+tmp/
+coverage/
+report/
+*.log
+*.tmp
+*.pid
+*.seed
+*.lock
+package-lock.json
+yarn.lock
+requirements.txt
+poetry.lock
+.pylint.d
+.mypy_cache/
